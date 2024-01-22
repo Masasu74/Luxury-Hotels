@@ -3,5 +3,10 @@
     padding: 0;
     box-sizing: border-box;
     font-family: montserrat;
-
+    -ms-overflow-style: none;  
+    scrollbar-width: none; 
+}
+*::-webkit-scrollbar {
+    display: none;
+   
 }

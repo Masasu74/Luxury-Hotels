@@ -1,7 +1,7 @@
 import React from "react";
 import style from "./Hero.module.css";
 import Navbar from "../Navbar/Navbar.jsx";
-import arrow from '../../../public/down_arrow.png'
+import arrow from '../../../public/down_arrow.png';
 function Hero() {
   return (
     <div className={style.background}>

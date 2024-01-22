@@ -1,69 +1,197 @@
 .background {
-    background: linear-gradient(rgba(20,39,74,0.5),rgba(20,39,74,0.5)), url(../../../public/home_bg.jpg) no-repeat;
-    background-size: cover;
-    width: 100%;
-    height: 100vh;
-    overflow: hidden;
-    display: flex;
-    flex-direction: column;
-    gap: 8%;    
+  background: linear-gradient(rgba(20, 39, 74, 0.5), rgba(20, 39, 74, 0.5)),
+    url(../../../public/home_bg.jpg) no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  gap: 8%;
 }
-.text{
-        margin: 0px 10%;
+.text {
+  margin: 0px 10%;
 }
-.text h2{
-    font-size: 50px;
+.text h2 {
+  font-size: 50px;
+  color: white;
+}
+.text h2 span {
+  font-size: 150px;
+  font-family: "Adobe Garamond";
+  display: block;
+  margin-bottom: -35px;
+}
+
+.text h2 .span2 {
+  font-size: 50px;
+  font-family: "Adobe Garamond";
+  margin-bottom: 35px;
+}
+.text p {
+  color: white;
+  font-size: 25px;
+}
+.btnBox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.btn {
+  background-color: #e0b973;
+  padding: 14px 30px;
+  outline: none;
+  border: none;
+  border-radius: 6px;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+}
+.scrollBox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 5px;
+}
+.scrollBox h4 {
+  color: white;
+  font-size: 25px;
+}
+.arrowBox {
+  background: white;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+@media screen and (max-width: 703px) {
+   
+  .text h2 {
+    font-size: 40px;
     color: white;
-}
-.text h2 span{
-    font-size: 150px;
-    font-family: 'Adobe Garamond';
+  }
+  .text h2 span {
+    font-size: 130px;
+    font-family: "Adobe Garamond";
     display: block;
     margin-bottom: -35px;
-}
+  }
 
-.text h2 .span2{
-    font-size: 50px;
-    font-family: 'Adobe Garamond';
+  .text h2 .span2 {
+    font-size: 40px;
+    font-family: "Adobe Garamond";
     margin-bottom: 35px;
+  }
+  .text p {
+    color: white;
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 584px) {
+    .background{
+        gap: 10%;
 
+    }
+    .text h2{
+        font-size: 30px;
+        color: white;
+    }
+    .text h2 span{
+        font-size: 110px;
+        font-family: 'Adobe Garamond';
+        display: block;
+        margin-bottom: -3%;
+    }
+    
+    .text h2 .span2{
+        font-size: 30px;
+        font-family: 'Adobe Garamond';
+        margin-bottom: 3%;
+    
+    }
+    .text p{
+        color: white;
+    font-size: 20px;}
 }
-.text p{
-    color: white;
-font-size: 25px;}
-.btnBox{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+
+@media screen and (max-width: 495px) {
+
+    .text h2{
+        font-size: 25px;
+        color: white;
+    }
+    .text h2 span{
+        font-size: 95px;
+        font-family: 'Adobe Garamond';
+        display: block;
+        margin-bottom: -3%;
+    }
+    
+    .text h2 .span2{
+        font-size: 25px;
+        font-family: 'Adobe Garamond';
+        margin-bottom: 3%;
+    
+    }
+    .text p{
+        color: white;
+    font-size: 20px;}
 }
-.btn{
-   background-color: #E0B973; 
-   padding: 14px 30px;
-   outline: none;
-   border: none;
-   border-radius: 6px;
-   color: white;
-   font-weight: 600;
-   cursor: pointer;
+@media screen and (max-width: 430px) {
+    .background{
+        gap: 15%;
+
+    }
+    .text h2{
+        font-size: 22px;
+        color: white;
+    }
+    .text h2 span{
+        font-size: 85px;
+        font-family: 'Adobe Garamond';
+        display: block;
+        margin-bottom: -3%;
+    }
+    
+    .text h2 .span2{
+        font-size: 22px;
+        font-family: 'Adobe Garamond';
+        margin-bottom: 3%;
+    
+    }
+    .text p{
+        color: white;
+    font-size: 16px;}
 }
-.scrollBox{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-flex-direction: column;
-gap: 5px;
-}
-.scrollBox h4{
-    color: white;
-    font-size: 25px;
-}
-.arrowBox{
-    background: white;
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    cursor: pointer;
+
+@media screen and (max-width: 387px) {
+    .background{
+        gap: 15%;
+
+    }
+
+    .text h2{
+        font-size: 18px;
+        color: white;
+    }
+    .text h2 span{
+        font-size: 68px;
+        font-family: 'Adobe Garamond';
+        display: block;
+        margin-bottom: -3%;
+    }
+    
+    .text h2 .span2{
+        font-size: 18px;
+        font-family: 'Adobe Garamond';
+        margin-bottom: 3%;
+    
+    }
+    .text p{
+        color: white;
+    font-size: 14px;}
 }
