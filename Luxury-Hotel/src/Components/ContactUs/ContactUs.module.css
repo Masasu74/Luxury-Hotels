@@ -123,3 +123,13 @@ border: 2px solid rgba(20, 39, 74, 0.50);
 button:hover{
 background-color: #14274A;
 }
+@media screen and (max-width: 812px) {
+
+   
+      .inputBox input{
+        outline: none;
+        height:5vh;
+        width:  300px;
+        border: 2px solid rgba(20, 39, 74, 0.50);
+        }
+}

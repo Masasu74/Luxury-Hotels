@@ -100,3 +100,14 @@ button {
     cursor: pointer;
     font-weight: 600;
 }
+@media screen and (max-width: 555px) {
+
+  .box{
+    height: 80vh;
+  }
+}
+@media screen and (max-width: 407px) {
+  .box{
+    height: 60vh;
+  }
+}

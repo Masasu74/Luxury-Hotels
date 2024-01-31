@@ -57,13 +57,41 @@
   width: 40%;
   height: 6vh;
   text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .innerBox h1 {
   color: #14274a;
   text-align: center;
   font-family: Montserrat;
-  font-size: 36px;
+  font-size: 3vw;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
+}
+@media screen and (max-width: 812px) {
+
+  .innerBox h1 {
+
+    font-size: 4vw;
+
+  }
+  .box{
+    height: 60vh;
+  }
+
+ 
+}
+
+@media screen and (max-width: 512px) {
+
+  .innerBox h1 {
+
+    font-size: 4vw;
+
+  }
+  .box{
+    height: 30vh;
+  }
 }

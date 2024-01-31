@@ -56,9 +56,5 @@ function Facilities() {
 export default Facilities;
 
 {
-  /* <div className={style.boxes}>
-<div className={style.box}>
-  <div className={style.innerBox}> <h1>THE GYM</h1></div>
-</div>
-</div> */
+
 }
