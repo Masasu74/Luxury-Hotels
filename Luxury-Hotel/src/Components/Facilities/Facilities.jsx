@@ -1,6 +1,6 @@
 import React from "react";
 import Hero from "../Hero/Hero.jsx";
-import Footer from "../Footer/Footer.jsx"
+import Footer from "../Footer/Footer.jsx";
 import style from "./Facilities.module.css";
 import thegym from "../../../public/thegym.jpg";
 import swimming from "../../../public/swimming.png";
@@ -8,6 +8,7 @@ import thespa from "../../../public/thespa.jpg";
 import poolside from "../../../public/poolside.jpeg";
 import restaurant from "../../../public/restaurant.png";
 import laundry from "../../../public/laundry.jpg";
+import Testmonials from "../Testmonials/Testmonials.jsx";
 function Facilities() {
   const images = [
     { id: 1, title: "THE GYM", url: thegym },
@@ -45,8 +46,9 @@ function Facilities() {
             </div>
           ))}
         </div>
+        <Testmonials />
       </div>
-        <Footer/>
+      <Footer />
     </>
   );
 }

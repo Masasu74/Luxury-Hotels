@@ -58,52 +58,8 @@
   font-weight: 600;
   cursor: pointer;
 }
-.testmonial{
-display: flex;
-flex-direction: column;
-gap: 15px;
-}
-.testmonial h2{
-font-size: 40px;
-font-family: 'Adobe Garamond';
-}
-.testmonial h4{
-  font-size: 20px;
-  font-weight: 400;
-}
 
-.testmonial h6{
-  font-weight: 400;
-}
-.arrowBox{
-  display: flex;
-  gap: 6%;
-  justify-content: center;
-  align-items: center;
-}
 
-.leftBox{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 30px;
-  width: 30px;
-  background-color: #E0B973;
-  border-radius: 10px;
-  cursor: pointer;
-}
-
-.rightBox{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 30px;
-  width: 30px;
-  background-color: #E0B973;
-  border-radius: 10px;
-  cursor: pointer;
-
-}
 @media screen and (max-width: 790px) {
   .box1{
     flex-direction: column;

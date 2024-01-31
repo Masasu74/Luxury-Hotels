@@ -4,8 +4,7 @@ import Footer from "../Footer/Footer.jsx";
 import style from "./Home.module.css";
 import beach from "../../../public/beach.jpg";
 import room from "../../../public/room.jpeg";
-import left_arrow from "../../../public/left_arrow.png";
-import right_arrow from "../../../public/right_arrow.png";
+import Testmonials from "../Testmonials/Testmonials.jsx";
 function Home() {
   return (
     <>
@@ -50,23 +49,9 @@ function Home() {
             </div>
           </div>
         </div>
-
-        <div className={style.testmonial}>
-          <h2>Testimonials</h2>
-          <h4>"Calm, Serene, Retro – What a way to relax and enjoy"</h4>
-          <h6> Mr. and Mrs. Baxter, UK</h6>
-          <div className={style.arrowBox}>
-            <div className={style.leftBox}>
-              <img src={left_arrow} width='28px'alt="" />
-            </div>
-            <div className={style.rightBox}>
-            <img src={right_arrow} width='28px'alt="" />
-
-            </div>
-          </div>
-        </div>
+        <Testmonials />
       </div>
-      <Footer/>
+      <Footer />
     </>
   );
 }
