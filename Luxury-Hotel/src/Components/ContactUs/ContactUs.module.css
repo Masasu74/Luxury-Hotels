@@ -1,0 +1,125 @@
+.navbarBox {
+  min-height: 35vh;
+  width: 100%;
+  background-color: #14274a;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 45px;
+}
+
+.navbarBox h2 {
+  color: #fff;
+
+  font-family: Montserrat;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.section {
+  margin: 8% 10%;
+  display: flex;
+  flex-direction: column;
+  gap:20vh ;
+}
+.des h1 {
+  color: #14274a;
+  font-family: "Adobe Garamond Pro";
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.des p {
+  color: #14274a;
+  -webkit-text-stroke-width: 0.30000001192092896;
+  -webkit-text-stroke-color: #000;
+  font-family: Montserrat;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.box1{
+display: flex;
+flex-direction: column;
+gap: 30px;
+}
+.box1 h2{
+    color: #14274A;
+-webkit-text-stroke-width: 0.5;
+-webkit-text-stroke-color: #14274A;
+font-family: Montserrat;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+
+}
+.box1 h3{
+    color: #14274A;
+font-family: Montserrat;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+.box1 p{
+    color: #14274A;
+-webkit-text-stroke-width: 0.5;
+-webkit-text-stroke-color: #14274A;
+font-family: Montserrat;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.boxes{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.inputBox{
+    display: flex;
+    flex-direction: column;
+}
+.inputBox label{
+    color: #14274A;
+
+-webkit-text-stroke-width: 0.30000001192092896;
+-webkit-text-stroke-color: #14274A;
+font-family: Arial;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.inputBox input{
+outline: none;
+height:5vh;
+width:  30vw;
+border: 2px solid rgba(20, 39, 74, 0.50);
+}
+.inputBox input:hover{
+    border: 2px solid #14274a;
+
+}
+.inputBox textarea{
+    border: 2px solid rgba(20, 39, 74, 0.50);
+
+}
+.inputBox textarea:hover{
+    border: 2px solid #14274a;
+
+}
+.formBox{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+button:hover{
+background-color: #14274A;
+}
