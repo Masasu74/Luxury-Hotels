@@ -5,7 +5,8 @@ import Navbar from "../Navbar/Navbar.jsx";
 import arrow from '../../../public/down_arrow.png';
 import homeBg from '../../../public/home_bg.jpg';
 import facilitiesBg from '../../../public/facilities_bg.jpg';
-import rooms_bg from '../../../public/rooms_bg.jpeg'
+import rooms_bg from '../../../public/rooms_bg.jpeg';
+
 function Hero() {
   const location = useLocation();
 
@@ -41,7 +42,7 @@ function Hero() {
       </div>
       <div className={style.scrollBox}>
         <h4>Scroll</h4>
-        <div className={style.arrowBox}>
+        <div className={style.arrowBox}  onClick={() => window.scrollTo({ top: 850, behavior: "smooth" })}>
           <img src={arrow} alt="" width="30px" />
         </div>
       </div>

@@ -21,7 +21,7 @@ function Facilities() {
   return (
     <>
       <Hero />
-      <div className={style.section}>
+      <div className={style.section} id="section">
         <div className={style.text}>
           <h2>Facilities</h2>
           <p>
